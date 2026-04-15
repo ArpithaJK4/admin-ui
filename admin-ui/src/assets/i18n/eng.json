@@ -41,7 +41,7 @@
         }
     },
     "dashboard": {
-        "welcomeMessage":"Welcome to Mosip Admin portal !"
+        "welcomeMessage":"Welcome to ZamIdentity Admin portal !"
     },
     "center": {
         "title":"Centers",

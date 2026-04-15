@@ -10,17 +10,17 @@
   <div class="mosip-logo">
     <span>
         <img *ngIf="(screenResize > 840) || (screenResize <= 470)"
-             src="./assets/images/mosip-logo-picto.png"
-             style="max-height: 2.82rem; width: fit-content;"
+             src="./assets/images/zam-identity.jpg"
+             style="max-height: 5rem; width: fit-content;"
              alt="Logo"/>
         <img *ngIf="(screenResize <= 840 && screenResize > 470)"
-             src="./assets/images/mosip-logo-white.png"
-             style="height: 2.82rem; width: fit-content;"
+             src="./assets/images/zam-identity.jpg"
+             style="height: 5rem; width: fit-content;"
              alt="Logo"/>
     </span>
     &nbsp;
     <span [ngStyle]="{ display: screenResize > 840 ? 'inline-block' : 'none' }">
-        <strong class="mosip-text">MOSIP</strong>
+        <strong class="mosip-text">ZamIdentity</strong>
         <strong class="version-txt"> {{ 'headermessage.vesion' | translate }} : {{ appVersion }}</strong>
     </span>
   </div>
