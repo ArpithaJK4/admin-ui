@@ -18,8 +18,8 @@ on:
       - develop
       - release-*
       - master
-      - 1.*
       - MOSIP*
+      - zambia
 
 jobs:
   build-admin-ui:
