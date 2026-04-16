@@ -19,7 +19,6 @@ on:
       - release-*
       - master
       - 1.*
-      - MOSIP*
       - zambia
 
 jobs:
